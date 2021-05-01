@@ -1,0 +1,33 @@
+  517  mkdir git-majonez
+  518  cd git-majonez/
+  519  git init
+  520  touch main.cpp
+  521  vim main.cpp 
+  522  g++ main.cpp 
+  523  vim main.cpp 
+  524  g++ main.cpp 
+  525  git add main.cpp 
+  526  git commit -m"Initial commit"
+  527  vim main.cpp 
+  528  g++ main.cpp 
+  529  git add main.cpp 
+  530  git commit -m"Farewell changed"
+  531  git remote add origin https://github.com/BarTes8/git-majonez.git
+  532  git push -u origin master
+  533  git branch cs
+  534  git checkout cs
+  535  git log
+  536  git reset --hard 3374
+  537  git log
+  538  vim main.cpp 
+  539  g++ main.cpp 
+  540  git add main.cpp 
+  541  git commit -m"Greetings"
+  542  git push origin cs
+  543  git checkout master 
+  544  git merge cs
+  545  vim main.cpp 
+  546  git add main.cpp 
+  547  git commit
+  548  history
+  549  history | tail -n33 >> history.txt
